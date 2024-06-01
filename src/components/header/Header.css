@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: var(--tg-theme-header_bg_color);
+    color: var(--tg-theme-text-color);
+    font-size: 20px;
+
+    .username {
+        font-weight: bold;
+    }
+}

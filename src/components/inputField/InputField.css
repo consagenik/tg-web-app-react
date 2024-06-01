@@ -1,0 +1,14 @@
+.inputField {
+    padding: 10px 15px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+
+    &::placeholder {
+        color: black;
+    }
+}
