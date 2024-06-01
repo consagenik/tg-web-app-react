@@ -56,9 +56,6 @@ export default function ProductList() {
   }, [queryId, selectedProducts])
 
   useEffect(() => {
-    tg.MainButton.setParams({text: 'Send'});
-    tg.MainButton.show();
-
     tg.onEvent('mainButtonClicked', onSendData);
 
     return () => {
