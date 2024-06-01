@@ -48,7 +48,7 @@ export default function ProductList() {
       queryId
     }
 
-    fetch('http://localhost:8000', {
+    fetch('https://tg-web-app-bot-w9dy.onrender.com/web-data', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
