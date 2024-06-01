@@ -33,11 +33,9 @@ export default function ProductList() {
     if (newSelectedProducts.length === 0) {
       tg.MainButton.hide();
     } else {
-      console.log({newSelectedProducts});
+      const totalPrice = getTotalPrice(newSelectedProducts);
       tg.MainButton.show();
-      tg.MainButton.setParams({
-        text: `Buy (${getTotalPrice(newSelectedProducts)})`
-      });
+      tg.MainButton.setParams({text: `Buy $${totalPrice}`});
     }
   }
 
