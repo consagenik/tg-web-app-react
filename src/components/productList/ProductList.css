@@ -3,12 +3,4 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-
-    .totalPrice {
-        font-weight: bold;
-        background: var(--tg-theme-button-color);
-        color: var(--tg-theme-button-text-color);
-        padding: 10px 15px;
-        font-size: 14px;
-    }
 }

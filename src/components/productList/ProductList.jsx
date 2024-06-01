@@ -74,10 +74,6 @@ export default function ProductList() {
           onAddToCart={() => onAddToCart(product)}
         />
       ))}
-
-      <div className="totalPrice">
-        Total price: {getTotalPrice(selectedProducts)}
-      </div>
     </div>
   );
 }
